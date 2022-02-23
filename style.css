@@ -3,3 +3,7 @@
     height: 500px;
     
 }
+
+#barra_acessibilidade {
+    display: none;
+}
