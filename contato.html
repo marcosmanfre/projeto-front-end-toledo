@@ -42,66 +42,68 @@
             </div>
         </nav>
         <main>
-          <article class="col-12">
-            <h2 id="formulario">Formulário de Contato</h2>
-            <form action="#" method="post" id="needs-validation" novalidate>
-              <div class="form-group row">
-                <label for="nome" class="col-sm-2 col-form-label col-form-label-sm">Nome*</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control form-control-sm" id="nome" placeholder="Digite seu nome" required>
-                  <small id="nomehelp" class="invalid-feedback">
-                    Campo nome obrigatório.
-                  </small>
+          <div class="container-fluid">
+            <article class="col-12">
+              <h2 id="formulario">Formulário de Contato</h2>
+              <form action="#" method="post" id="needs-validation" novalidate>
+                <div class="form-group row">
+                  <label for="nome" class="col-sm-2 col-form-label col-form-label-sm">Nome*</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-sm" id="nome" placeholder="Digite seu nome" required>
+                    <small id="nomehelp" class="invalid-feedback">
+                      Campo nome obrigatório.
+                    </small>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group row">
-                <label for="email" class="col-sm-2 col-form-label col-form-label-sm">E-mail*</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control form-control-sm" id="email" placeholder="Digite seu email" required>
-                  <small id="emalhelp" class="invalid-feedback">
-                    Campo e-mail obrigatório.
-                  </small>
+                <div class="form-group row">
+                  <label for="email" class="col-sm-2 col-form-label col-form-label-sm">E-mail*</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-sm" id="email" placeholder="Digite seu email" required>
+                    <small id="emalhelp" class="invalid-feedback">
+                      Campo e-mail obrigatório.
+                    </small>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group row">
-                <label for="mensagem" class="col-sm-2 col-form-label col-form-label-sm">Mensagem*</label>
-                <div class="col-sm-10">
-                  <textarea class="form-control form-control-sm" id="mensagem" required></textarea>
-                  <small id="mensagemhelp" class="invalid-feedback">
-                    Campo mensagem obrigatório.
-                  </small>
-                  <fieldset>
-                    <legend>Como prefere o nosso contato?</legend>
-                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-                  
-                  
-                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-                  
-                  
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whastapp" id="radio-whatsapp"
-                        checked>WhatsApp</label>
-                  
-                  </fieldset>
-                  
-                  <fieldset>
-                    <legend>Qual horário prefere ser atendido?</legend>
-                    <select>
-                      <option>Manhã</option>
-                      <option>Tarde</option>
-                      <option>Noite</option>
-                  
-                    </select>
-                  </fieldset>
+                <div class="form-group row">
+                  <label for="mensagem" class="col-sm-2 col-form-label col-form-label-sm">Mensagem*</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control form-control-sm" id="mensagem" required></textarea>
+                    <small id="mensagemhelp" class="invalid-feedback">
+                      Campo mensagem obrigatório.
+                    </small>
+                    <fieldset>
+                      <legend>Como prefere o nosso contato?</legend>
+                      <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
                     
-                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label><br>
-                  <button type="submit" class="btn btn-primary my-1">Enviar</button>
-                  <small id="help" class="form-text text-muted">
-                    * Campos obrigatórios.
-                  </small>
+                    
+                      <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+                    
+                      <label for="radio-whatsapp"><input type="radio" name="contato" value="whastapp" id="radio-whatsapp"
+                          checked>WhatsApp</label>
+                    
+                    </fieldset>
+                    
+                    <fieldset>
+                      <legend>Qual horário prefere ser atendido?</legend>
+                      <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    
+                      </select>
+                    </fieldset>
+                      
+                  <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label><br>
+                    <button type="submit" class="btn btn-primary my-1">Enviar</button>
+                    <small id="help" class="form-text text-muted">
+                      * Campos obrigatórios.
+                    </small>
+                  </div>
                 </div>
-              </div>
-            </form>
-          </article>
+              </form>
+            </article>
+          </div>
           </section>
         
         </main>
