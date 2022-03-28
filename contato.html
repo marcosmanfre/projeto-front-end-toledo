@@ -42,9 +42,18 @@
             </div>
         </nav>
         <main>
+          <section class="py-3 text-center container">
+            <div class="row py-lg-3">
+              <div class="col-lg-8 col-md-8 mx-auto">
+                <h1 class="fw-light">Formulário de Contato</h1>
+                <p class="lead text-muted">Envie sua mensagem</p>
+              
+              </div>
+            </div>
+          </section>
           <div class="container-fluid">
             <article class="col-12">
-              <h2 id="formulario">Formulário de Contato</h2>
+              <h2 id="formulario"></h2>
               <form action="#" method="post" id="needs-validation" novalidate>
                 <div class="form-group row">
                   <label for="nome" class="col-sm-2 col-form-label col-form-label-sm">Nome*</label>
@@ -71,30 +80,43 @@
                     <small id="mensagemhelp" class="invalid-feedback">
                       Campo mensagem obrigatório.
                     </small>
-                    <fieldset>
-                      <legend>Como prefere o nosso contato?</legend>
-                      <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                 
                     
-                    
-                      <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-                    
-                    
-                      <label for="radio-whatsapp"><input type="radio" name="contato" value="whastapp" id="radio-whatsapp"
-                          checked>WhatsApp</label>
-                    
+                    </fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        E-mail
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Telefone
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                      <label class="form-check-label" for="flexRadioDefault3">
+                        WhatsApp
+                      </label>
+                    </div>
                     </fieldset>
                     
                     <fieldset>
                       <legend>Qual horário prefere ser atendido?</legend>
-                      <select>
-                        <option>Manhã</option>
-                        <option>Tarde</option>
-                        <option>Noite</option>
-                    
+                      <select class="form-select" aria-label="Default select example">
+                      <option value selected="1">Manhã</option>
+                      <option value="2">Tarde</option>
+                      <option value="3">Noite</option>
                       </select>
                     </fieldset>
+                    
+                
                       
                   <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label><br>
+                  
                     <button type="submit" class="btn btn-primary my-1">Enviar</button>
                     <small id="help" class="form-text text-muted">
                       * Campos obrigatórios.
