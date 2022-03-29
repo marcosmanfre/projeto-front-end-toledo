@@ -48,7 +48,7 @@ document.getElementById('cep')
 
 
         (function() {
-            'use strict';
+            
             window.addEventListener('load', function() {
             var form = document.getElementById('needs-validation');
             form.addEventListener('submit', function(event) {
