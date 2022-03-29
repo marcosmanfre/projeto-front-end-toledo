@@ -56,35 +56,63 @@
           </div>
         </section>
         <div class="container-fluid">
-          <form class="row g-3">
+          <form action="#" method="post" id="needs-validation" novalidate class="row g-3">           
         
             <div class="col-md-6">
               <label for="nome" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome">
+              <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome" required>
+              <small id="nomehelp" class="invalid-feedback">
+                Campo nome obrigatório.
+              </small>
             </div>
             <div class="col-md-6">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="text" class="form-control" id="email" placeholder="Digite o seu e-mail" required>
+              <small id="emailhelp" class="invalid-feedback">
+                Campo e-mail obrigatório.
+              </small>
+            </div>
+            <div class="col-md-12">
               <label for="cep" class="form-label">CEP</label>
-              <input type="text" class="form-control" id="cep" placeholder="Digite o seu CEP">
+              <input type="text" class="form-control" id="cep" placeholder="Digite o seu CEP" required>
+              <small id="cephelp" class="invalid-feedback">
+                Campo CEP obrigatório.
+              </small>
             </div>
             <div class="col-md-6">
               <label for="endereco" class="form-label">Endereço</label>
-              <input type="text" class="form-control" id="endereco">
+              <input type="text" class="form-control" id="endereco" required>
+              <small id="enderecohelp" class="invalid-feedback">
+                Campo endereço obrigatório.
+              </small>
             </div>
             <div class="col-md-6">
               <label for="numero" class="form-label">Número</label>
-              <input type="text" class="form-control" id="numero" placeholder="Digite o número da sua casa">
+              <input type="text" class="form-control" id="numero" placeholder="Digite o número da sua casa" required>
+              <small id="numerolhelp" class="invalid-feedback">
+                Campo número obrigatório.
+              </small>
             </div>
             <div class="col-12">
               <label for="bairro" class="form-label">Bairro</label>
-              <input type="text" class="form-control" id="bairro">
+              <input type="text" class="form-control" id="bairro" required>
+              <small id="bairrohelp" class="invalid-feedback">
+                Campo bairro obrigatório.
+              </small>
             </div>
             <div class="col-md-6">
               <label for="cidade" class="form-label">Cidade</label>
-              <input type="text" class="form-control" id="cidade">
+              <input type="text" class="form-control" id="cidade" required>
+              <small id="cidadehelp" class="invalid-feedback">
+                Campo cidade obrigatório.
+              </small>
             </div>
             <div class="col-md-6">
               <label for="estado" class="form-label">Estado</label>
-              <input type="text" class="form-control" id="estado">
+              <input type="text" class="form-control" id="estado" required>
+              <small id="estadohelp" class="invalid-feedback">
+                Campo estado obrigatório.
+              </small>
             </div>
 
             

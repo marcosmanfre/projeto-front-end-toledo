@@ -11,7 +11,6 @@ const limparFormulario = (endereco) => {
 
 
 
-
 const preencherFormulario = (endereco) => {
     document.getElementById('endereco').value = endereco.logradouro;
     document.getElementById('bairro').value = endereco.bairro;
@@ -19,7 +18,6 @@ const preencherFormulario = (endereco) => {
     document.getElementById('estado').value = endereco.uf;
 
 }
-
 
 
 const eNumero = (numero) =>  /^[0-9]+$/.test(numero);
@@ -47,3 +45,18 @@ const pesquisarCep = async() => {
 
 document.getElementById('cep')
         .addEventListener('focusout',pesquisarCep);
+
+
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+            var form = document.getElementById('needs-validation');
+            form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+            }, false);
+            }, false);
+            })();
