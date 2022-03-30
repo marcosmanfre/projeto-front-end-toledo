@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <title>Supermercado Pastorinho</title>
@@ -73,10 +73,20 @@
           <div class="form-group row">
             <label for="email" class="col-sm-2 col-form-label col-form-label-sm">E-mail*</label>
             <div class="col-sm-10">
-              <input type="email" class="form-control form-control-sm" id="email" placeholder="Digite seu email"
+              <input type="text" class="form-control form-control-sm" id="email" placeholder="Digite seu email"
                 required>
               <small id="emailhelp" class="invalid-feedback">
                 Campo e-mail obrigatório.
+              </small>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="telefone" class="col-sm-2 col-form-label col-form-label-sm">Telefone*</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control form-control-sm" id="telefone" placeholder="Digite seu telefone"
+                required>
+              <small id="telhelp" class="invalid-feedback">
+                Campo telefone obrigatório.
               </small>
             </div>
           </div>
@@ -158,7 +168,7 @@
       </div>
     </div>
   </footer>
-  <script src="main.js"></script>
+  <script src="/js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
